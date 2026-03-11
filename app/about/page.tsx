@@ -60,16 +60,16 @@ export default function AboutPage() {
             Master Restoration helps homeowners and businesses recover from
             water, mold, and fire damage with fast, dependable service.
           </p>
-          <div className="mt-8 flex flex-col gap-4 sm:flex-row">
+          <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <a
               href="tel:5555555555"
-              className="rounded-md bg-red-600 px-6 py-3 text-center font-semibold text-white transition hover:bg-red-500"
+              className="inline-flex items-center justify-center rounded-md bg-red-600 px-6 py-3 text-center font-semibold text-white transition hover:bg-red-500"
             >
               Call Now
             </a>
             <Link
               href="/contact"
-              className="rounded-md border border-white/25 px-6 py-3 text-center font-semibold text-white transition hover:bg-white/10"
+              className="inline-flex items-center justify-center rounded-md border border-white/25 px-6 py-3 text-center font-semibold text-white transition hover:bg-white/10"
             >
               Request Service
             </Link>
@@ -97,7 +97,7 @@ export default function AboutPage() {
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">What We Stand For</h2>
           <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {values.map((value) => (
-              <article key={value.title} className="rounded-xl border border-slate-200 bg-white p-6">
+              <article key={value.title} className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
                 <h3 className="text-lg font-semibold text-slate-900">{value.title}</h3>
                 <p className="mt-2 text-slate-600">{value.description}</p>
               </article>
@@ -112,7 +112,7 @@ export default function AboutPage() {
         </h2>
         <div className="mt-8 grid gap-4 sm:grid-cols-2">
           {trustPoints.map((point) => (
-            <article key={point} className="rounded-xl border border-slate-200 bg-white p-5">
+            <article key={point} className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
               <p className="font-medium text-slate-800">{point}</p>
             </article>
           ))}
@@ -167,18 +167,18 @@ export default function AboutPage() {
             Call our team now for fast emergency response and trusted
             restoration support for your property.
           </p>
-          <div className="mt-8 flex flex-col gap-4 sm:flex-row">
+          <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <a
               href="tel:5555555555"
-              className="rounded-md bg-red-600 px-6 py-3 text-center font-semibold text-white transition hover:bg-red-500"
+              className="inline-flex items-center justify-center rounded-md bg-red-600 px-6 py-3 text-center font-semibold text-white transition hover:bg-red-500"
             >
               Call Now
             </a>
             <Link
               href="/contact"
-              className="rounded-md border border-white/25 px-6 py-3 text-center font-semibold text-white transition hover:bg-white/10"
+              className="inline-flex items-center justify-center rounded-md border border-white/25 px-6 py-3 text-center font-semibold text-white transition hover:bg-white/10"
             >
-              Contact Us
+              Request Service
             </Link>
           </div>
         </div>

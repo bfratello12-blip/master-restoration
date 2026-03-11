@@ -52,16 +52,16 @@ export default function MoldRemediationPage() {
             complete safe cleanup so your home or business can recover with
             confidence.
           </p>
-          <div className="mt-8 flex flex-col gap-4 sm:flex-row">
+          <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <a
               href="tel:5555555555"
-              className="rounded-md bg-red-600 px-6 py-3 text-center font-semibold text-white transition hover:bg-red-500"
+              className="inline-flex items-center justify-center rounded-md bg-red-600 px-6 py-3 text-center font-semibold text-white transition hover:bg-red-500"
             >
               Call Now
             </a>
             <Link
               href="/contact"
-              className="rounded-md border border-white/25 px-6 py-3 text-center font-semibold text-white transition hover:bg-white/10"
+              className="inline-flex items-center justify-center rounded-md border border-white/25 px-6 py-3 text-center font-semibold text-white transition hover:bg-white/10"
             >
               Request Service
             </Link>
@@ -84,7 +84,7 @@ export default function MoldRemediationPage() {
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">What We Handle</h2>
           <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {handledItems.map((item) => (
-              <article key={item} className="rounded-xl border border-slate-200 bg-white p-5">
+              <article key={item} className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
                 <h3 className="font-semibold text-slate-900">{item}</h3>
               </article>
             ))}
@@ -96,7 +96,7 @@ export default function MoldRemediationPage() {
         <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Our Remediation Process</h2>
         <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
           {processSteps.map((step, index) => (
-            <article key={step} className="rounded-xl border border-slate-200 bg-white p-5">
+            <article key={step} className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
               <p className="text-xs font-semibold uppercase tracking-wide text-red-600">Step {index + 1}</p>
               <p className="mt-2 text-sm font-medium text-slate-800">{step}</p>
             </article>
@@ -109,7 +109,7 @@ export default function MoldRemediationPage() {
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Why Choose Master Restoration</h2>
           <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {valuePoints.map((point) => (
-              <article key={point.title} className="rounded-xl border border-slate-200 bg-white p-6">
+              <article key={point.title} className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
                 <h3 className="text-lg font-semibold text-slate-900">{point.title}</h3>
                 <p className="mt-2 text-slate-600">{point.description}</p>
               </article>
@@ -127,18 +127,18 @@ export default function MoldRemediationPage() {
             Contact our team now for fast local mold remediation and reliable
             support from inspection through cleanup.
           </p>
-          <div className="mt-8 flex flex-col gap-4 sm:flex-row">
+          <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <a
               href="tel:5555555555"
-              className="rounded-md bg-red-600 px-6 py-3 text-center font-semibold text-white transition hover:bg-red-500"
+              className="inline-flex items-center justify-center rounded-md bg-red-600 px-6 py-3 text-center font-semibold text-white transition hover:bg-red-500"
             >
               Call Now
             </a>
             <Link
               href="/contact"
-              className="rounded-md border border-white/25 px-6 py-3 text-center font-semibold text-white transition hover:bg-white/10"
+              className="inline-flex items-center justify-center rounded-md border border-white/25 px-6 py-3 text-center font-semibold text-white transition hover:bg-white/10"
             >
-              Contact Us
+              Request Service
             </Link>
           </div>
         </div>

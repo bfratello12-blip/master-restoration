@@ -15,20 +15,20 @@ const navLinks = [
 
 export default function SiteHeader() {
   return (
-    <header className="border-b border-slate-200 bg-white">
-      <div className="mx-auto flex max-w-7xl flex-wrap items-center gap-x-8 gap-y-4 px-6 py-4 lg:px-8">
+    <header className="border-b border-slate-200 bg-white/95 backdrop-blur">
+      <div className="mx-auto flex max-w-7xl flex-wrap items-center gap-x-6 gap-y-3 px-6 py-3 lg:flex-nowrap lg:px-8">
         <Link href="/" className="shrink-0" aria-label="Master Restoration Home">
           <Image
             src="/master_restoration_logo-removebg-preview.png"
             alt="Master Restoration logo"
-            width={380}
-            height={112}
-            className="h-24 w-auto"
+            width={320}
+            height={94}
+            className="h-14 w-auto lg:h-16"
             priority
           />
         </Link>
 
-        <nav aria-label="Primary" className="flex flex-1 flex-wrap items-center gap-4 text-sm font-medium text-slate-700">
+        <nav aria-label="Primary" className="flex flex-1 flex-wrap items-center gap-x-5 gap-y-2 text-sm font-medium text-slate-700">
           {navLinks.map((link) => (
             <Link
               key={link.href}
@@ -42,7 +42,7 @@ export default function SiteHeader() {
 
         <a
           href="tel:5555555555"
-          className="rounded-md bg-red-600 px-5 py-2.5 text-sm font-semibold text-white shadow-sm transition hover:bg-red-500"
+          className="inline-flex items-center justify-center rounded-md bg-red-600 px-5 py-2.5 text-sm font-semibold text-white shadow-sm transition hover:bg-red-500"
         >
           Call Now
         </a>

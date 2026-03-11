@@ -212,16 +212,16 @@ export default function ServiceAreasPage() {
             remediation, and fire damage restoration services throughout Suffolk
             County and Nassau County, New York.
           </p>
-          <div className="mt-8 flex flex-col gap-4 sm:flex-row">
+          <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <a
               href="tel:5555555555"
-              className="rounded-md bg-red-600 px-6 py-3 text-center font-semibold text-white transition hover:bg-red-500"
+              className="inline-flex items-center justify-center rounded-md bg-red-600 px-6 py-3 text-center font-semibold text-white transition hover:bg-red-500"
             >
               Call Now
             </a>
             <Link
               href="/contact"
-              className="rounded-md border border-white/25 px-6 py-3 text-center font-semibold text-white transition hover:bg-white/10"
+              className="inline-flex items-center justify-center rounded-md border border-white/25 px-6 py-3 text-center font-semibold text-white transition hover:bg-white/10"
             >
               Request Service
             </Link>
@@ -242,7 +242,7 @@ export default function ServiceAreasPage() {
 
       <section className="bg-slate-50">
         <div className="mx-auto max-w-7xl px-6 py-16 lg:px-8">
-          <div className="rounded-2xl border border-slate-200 bg-white p-8">
+          <div className="rounded-2xl border border-slate-200 bg-white p-8 shadow-sm">
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
               Suffolk County
             </h2>
@@ -261,7 +261,7 @@ export default function ServiceAreasPage() {
       </section>
 
       <section className="mx-auto max-w-7xl px-6 py-16 lg:px-8">
-        <div className="rounded-2xl border border-slate-200 bg-white p-8">
+        <div className="rounded-2xl border border-slate-200 bg-white p-8 shadow-sm">
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Nassau County</h2>
           <p className="mt-3 text-slate-600">
             Our team also serves Nassau County with quick local restoration response.
@@ -310,18 +310,18 @@ export default function ServiceAreasPage() {
             Call Master Restoration now for fast local response in Suffolk and
             Nassau County.
           </p>
-          <div className="mt-8 flex flex-col gap-4 sm:flex-row">
+          <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <a
               href="tel:5555555555"
-              className="rounded-md bg-red-600 px-6 py-3 text-center font-semibold text-white transition hover:bg-red-500"
+              className="inline-flex items-center justify-center rounded-md bg-red-600 px-6 py-3 text-center font-semibold text-white transition hover:bg-red-500"
             >
               Call Now
             </a>
             <Link
               href="/contact"
-              className="rounded-md border border-white/25 px-6 py-3 text-center font-semibold text-white transition hover:bg-white/10"
+              className="inline-flex items-center justify-center rounded-md border border-white/25 px-6 py-3 text-center font-semibold text-white transition hover:bg-white/10"
             >
-              Contact Us
+              Request Service
             </Link>
           </div>
         </div>
