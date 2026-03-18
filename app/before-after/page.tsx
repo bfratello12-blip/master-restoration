@@ -47,24 +47,20 @@ const projects = [
 
 const valuePoints = [
   {
-    title: "Shows real restoration outcomes",
-    description:
-      "Project examples help homeowners and businesses see what professional recovery can achieve.",
+    title: "Fast response",
+    description: "Quick stabilization helps prevent additional property loss.",
   },
   {
-    title: "Highlights attention to detail",
-    description:
-      "Before-and-after comparisons reflect quality workmanship from cleanup to final restoration.",
+    title: "Experienced team",
+    description: "Restoration professionals trained for complex fire losses.",
   },
   {
-    title: "Builds trust with local customers",
-    description:
-      "Visual proof gives confidence that your property is in experienced hands.",
+    title: "Thorough cleanup",
+    description: "Detailed smoke, soot, and odor treatment from top to bottom.",
   },
   {
-    title: "Demonstrates service capability",
-    description:
-      "Examples across water, mold, and fire damage show versatile restoration expertise.",
+    title: "Insurance claim support",
+    description: "Helpful documentation and updates for your claim process.",
   },
 ];
 
@@ -155,17 +151,17 @@ export default function BeforeAfterPage() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-7xl px-6 py-16 lg:px-8">
-        <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
-          Why Before &amp; After Projects Matter
-        </h2>
-        <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-          {valuePoints.map((point) => (
-            <article key={point.title} className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
-              <h3 className="text-lg font-semibold text-slate-900">{point.title}</h3>
-              <p className="mt-2 text-slate-600">{point.description}</p>
-            </article>
-          ))}
+      <section className="bg-white">
+        <div className="mx-auto max-w-7xl px-6 py-16 lg:px-8">
+          <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Why Choose Master Restoration</h2>
+          <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+            {valuePoints.map((point) => (
+              <article key={point.title} className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+                <h3 className="text-lg font-semibold text-slate-900">{point.title}</h3>
+                <p className="mt-2 text-slate-600">{point.description}</p>
+              </article>
+            ))}
+          </div>
         </div>
       </section>
 
