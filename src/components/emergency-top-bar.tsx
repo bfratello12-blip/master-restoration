@@ -9,10 +9,10 @@ export default function EmergencyTopBar() {
             Fast Response for Water, Mold &amp; Fire Damage
           </span>
           <a
-            href="tel:5555555555"
+            href="tel:6316209793"
             className="inline-flex items-center rounded-md bg-white px-3 py-1 font-bold text-red-700 transition hover:bg-red-50"
           >
-            (555) 555-5555
+            (631) 620-9793
           </a>
         </div>
       </div>

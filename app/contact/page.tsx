@@ -34,7 +34,7 @@ export default function ContactPage() {
           </p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <a
-              href="tel:5555555555"
+              href="tel:6316209793"
               className="inline-flex items-center justify-center rounded-md bg-red-600 px-6 py-3 text-center font-semibold text-white transition hover:bg-red-500"
             >
               Call Now
@@ -67,8 +67,8 @@ export default function ContactPage() {
                 <div>
                   <dt className="text-sm font-semibold uppercase tracking-wide text-slate-500">Phone</dt>
                   <dd className="mt-1 text-lg font-medium">
-                    <a href="tel:5555555555" className="transition hover:text-blue-700">
-                      (555) 555-5555
+                    <a href="tel:6316209793" className="transition hover:text-blue-700">
+                      (631) 620-9793
                     </a>
                   </dd>
                 </div>
@@ -134,7 +134,7 @@ export default function ContactPage() {
                     name="phone"
                     type="tel"
                     className="mt-1 w-full rounded-md border border-slate-300 px-3 py-2 text-slate-900 shadow-sm outline-none ring-blue-600/40 placeholder:text-slate-400 focus:ring"
-                    placeholder="(555) 555-5555"
+                    placeholder="(631) 620-9793"
                   />
                 </div>
                 <div>
@@ -216,7 +216,7 @@ export default function ContactPage() {
             fastest response and immediate restoration support.
           </p>
           <a
-            href="tel:5555555555"
+            href="tel:6316209793"
             className="mt-6 inline-flex items-center justify-center rounded-md bg-red-600 px-6 py-3 font-semibold text-white transition hover:bg-red-500"
           >
             Call Now
@@ -245,7 +245,7 @@ export default function ContactPage() {
           </h2>
           <div className="mt-6 flex flex-col gap-3 sm:flex-row">
             <a
-              href="tel:5555555555"
+              href="tel:6316209793"
               className="inline-flex items-center justify-center rounded-md bg-red-600 px-6 py-3 text-center font-semibold text-white transition hover:bg-red-500"
             >
               Call Now

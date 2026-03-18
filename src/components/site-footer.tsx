@@ -41,8 +41,8 @@ export default function SiteFooter() {
           </h3>
           <ul className="mt-4 space-y-2.5 text-sm text-slate-300">
             <li>
-              <a href="tel:5555555555" className="transition hover:text-blue-300">
-                (555) 555-5555
+              <a href="tel:6316209793" className="transition hover:text-blue-300">
+                (631) 620-9793
               </a>
             </li>
             <li>

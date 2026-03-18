@@ -73,7 +73,7 @@ export default function ReviewsPage() {
           </p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <a
-              href="tel:5555555555"
+              href="tel:6316209793"
               className="inline-flex items-center justify-center rounded-md bg-red-600 px-6 py-3 text-center font-semibold text-white transition hover:bg-red-500"
             >
               Call Now
@@ -155,7 +155,7 @@ export default function ReviewsPage() {
           </p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <a
-              href="tel:5555555555"
+              href="tel:6316209793"
               className="inline-flex items-center justify-center rounded-md bg-red-600 px-6 py-3 text-center font-semibold text-white transition hover:bg-red-500"
             >
               Call Now
