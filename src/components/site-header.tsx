@@ -19,11 +19,11 @@ export default function SiteHeader() {
       <div className="mx-auto flex max-w-7xl flex-wrap items-center gap-x-6 gap-y-3 px-6 py-3 lg:flex-nowrap lg:px-8">
         <Link href="/" className="shrink-0" aria-label="Master Restoration Home">
           <Image
-            src="/master_restoration_logo-removebg-preview.png"
+            src="/master_restoration_logo_rebuilt.svg"
             alt="Master Restoration logo"
-            width={320}
-            height={94}
-            className="h-14 w-auto lg:h-16"
+            width={420}
+            height={124}
+            className="h-20 w-auto lg:h-24"
             priority
           />
         </Link>
