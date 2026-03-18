@@ -28,7 +28,7 @@ export default function SiteHeader() {
   return (
     <header className="border-b border-slate-200 bg-white/95 backdrop-blur">
       <div className="mx-auto max-w-7xl px-4 py-3 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between gap-3">
+        <div className="flex items-center gap-3 md:gap-6">
           <Link href="/" className="shrink-0" aria-label="Master Restoration Home">
           <Image
             src="/master_restoration_logo_rebuilt.svg"
@@ -40,7 +40,29 @@ export default function SiteHeader() {
           />
           </Link>
 
-          <div className="flex items-center gap-2">
+          <nav
+            aria-label="Primary"
+            className="hidden flex-1 items-center justify-center gap-x-5 text-sm font-medium text-slate-700 md:flex"
+          >
+            {navLinks.map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                className="rounded-md px-1 py-1 transition hover:text-blue-700"
+              >
+                {link.label}
+              </Link>
+            ))}
+          </nav>
+
+          <a
+            href="tel:6316209793"
+            className="ml-auto hidden items-center justify-center rounded-md bg-red-600 px-4 py-2 text-sm font-semibold text-white shadow-sm transition hover:bg-red-500 md:inline-flex"
+          >
+            Call Now
+          </a>
+
+          <div className="ml-auto flex items-center gap-2 md:hidden">
             <a
               href="tel:6316209793"
               className="inline-flex items-center justify-center rounded-md bg-red-600 px-4 py-2 text-sm font-semibold text-white shadow-sm transition hover:bg-red-500"
@@ -74,21 +96,6 @@ export default function SiteHeader() {
             </button>
           </div>
         </div>
-
-        <nav
-          aria-label="Primary"
-          className="mt-4 hidden flex-wrap items-center gap-x-5 gap-y-2 text-sm font-medium text-slate-700 md:flex"
-        >
-          {navLinks.map((link) => (
-            <Link
-              key={link.href}
-              href={link.href}
-              className="rounded-md px-1 py-1 transition hover:text-blue-700"
-            >
-              {link.label}
-            </Link>
-          ))}
-        </nav>
 
         {isMenuOpen && (
           <nav
